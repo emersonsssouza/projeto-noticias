@@ -1,0 +1,80 @@
+@media screen {
+    body {
+        background-color: white;
+        margin: auto;
+    }
+    main {
+        margin: auto;
+    }
+    
+}
+
+@media all and (orientation: portrait) {
+    header > div > a {
+        padding: 2px;
+        font-size: 10px;  
+    }
+    header > div > img.logo {
+        padding: 10px;
+        width: 70px;
+    }
+
+    section > div#sectiontitulo1 {
+        font-size: 20px;
+    }
+    
+    section.section2 {
+        background-color: white;
+    }
+    section.section2 > div.titulo-principal > h1 {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    section.section2 > div.imagem-redonda{
+        height: 500px;
+    }
+    section.section2 > div.titulo-principal > div.bola-principal {
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+    }
+
+    img.img1 {
+        width: 300px;
+        height: 300px;
+        display: flex;
+        position: absolute;
+        margin-left: -150px;
+    }
+    img.img2 {
+        display: none;
+    }
+    section.section2 > div.text-image > h2 {
+        display: flex;
+        font-size: 15px;
+       
+         
+    }
+    section.section2 > div.text-image {
+        margin-left: 230px;
+        margin-top: -500px;
+        width: 250px;
+        height: 300px;
+        border-radius: 10px; 
+    }
+    section.section2 > div.text-image > p{
+        text-align: center;
+         font-size: 10px;
+    }
+    section.section2 > div.borda-redonda {
+        width: 70px;
+        height: 70px;
+        display: flex;
+        position: relative;
+        left: 190px;
+        top: -20px;
+    }
+    
+    }
+
+    

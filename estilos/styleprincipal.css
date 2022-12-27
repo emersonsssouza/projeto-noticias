@@ -1,0 +1,471 @@
+@charset "utf-8";
+
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Sarala&family=Work+Sans:wght@300;500;600&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Roboto:wght@300&family=Work+Sans:wght@300;500;600&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    background-color: white;
+}
+
+header > div > img.logo {
+    width: 100px;
+    padding: 20px;
+    background-color: black;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+header > div > a {
+    color: white;
+    text-decoration: none;
+    border: 3px solid;
+    border-color: rgb(83, 1, 160);
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section.section1 {
+    background-image: url(../imagens-background/back1.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 890px;
+}
+
+section > div#sectiontitulo1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+section > div#sectiontitulo1 > h1 {
+    margin-top: 190px;
+}
+
+section.section1 > nav.menu-principal {
+    display: flex;
+    justify-content: center;
+}
+
+section.section1 > nav.menu-principal > ul.lista {
+    display: flex;
+    margin-top: 50px;
+    list-style-type: none;
+    flex-direction: row;
+    color: white;
+    gap: 20px;
+}
+
+section.section1 > nav.menu-principal > ul.lista > li.menu-link > a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+section.section1 > div.menu-secundario {
+    display: flex;
+    justify-content: center;
+}
+
+section.section1 > div.menu-secundario > p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 10px 30px;
+    border: 2px solid white;
+}
+
+section.section1 > div.menu-secundario > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+section.section1 > div.menu-terciario > p {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    word-spacing: 10px;
+}
+
+section.section1 > div.menu-terciario > p > a {
+    color: white;
+    text-decoration: underline;
+}
+/*Fim da primeira section com background-image, a proxima já é outro background*/
+
+section.section2 {
+    background-color: white;
+    margin-bottom: 0px;
+}
+
+section.section2 > div.titulo-principal {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+section.section2 > div.titulo-principal > h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: right; 
+}
+
+section.section2 > div.titulo-principal > div.bola-principal {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: #3A4998;
+    border-radius: 50%;
+}
+
+section.section2 > div.imagem-redonda {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 170px;
+}
+
+img.img1 {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    position: relative;
+}
+
+img.img2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+    top: 400px;
+    left: -690px;
+    border: 10px solid white;
+}
+
+section.section2 > div.text-image {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 550px;
+    height: 520px;
+    padding: 30px;
+    position: relative;
+    background-color:#F2F2F2 ;
+    margin-top: -450px;
+    margin-left: 700px;
+}
+
+section.section2 > div.text-image > h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+section.section2 > div.text-image > p {
+    text-align: justify;
+    font-size: 20px;
+    color: dimgray;
+}
+
+section.section2 > div.text-image > p#textitalic, a#textitalic {
+    font-style: italic;
+    font-size: 25px;
+    color: dimgray;
+}
+
+section.section2 > div.text-image > p#text-saber {
+    border: 1px solid #3A4998;
+    background-color: #3A4998;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 150px;
+    text-align: center;
+    padding: 10px ;
+}
+
+section.section2 > div.borda-redonda{
+    display: flex;
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 450px;
+    border: 25px solid #E5BB8D ;
+}
+/*Fim da section2 esta section não tem background-image, A proxima tera*/
+
+section.list-div {
+    background-image: url(../imagens-background/back2.jpg);
+    background-position: left left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+section.list-div div.list-div1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+div.list-div2 {
+    text-align: left;
+    margin-top: 30px;
+    margin-right: 50px;
+    background-color: white;
+    padding: 50px;
+    width: 500px; 
+    box-shadow: 5px 5px 7px black;
+}
+
+div.list-div2 > h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+
+div.list-div2 > p {
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Fim da section list div */
+
+section.bloco-imagem {
+    height: 800px;
+    background-color: #F5F7FA;
+    margin: auto;
+}
+
+section.bloco-imagem {
+    background-color: #3A4998;
+    width: 1150px;
+    height: 450px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 20px;
+}
+
+section.bloco-imagem > img {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    top: -150px;
+    left: 200px;
+}
+
+/*Fim da section bloco-imagem*/
+
+section.controle {
+    height: 700px;
+    margin-top: 50px;
+    background-image: url(../imagens-background/back03.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+section.controle > div.bloco-controle {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 20px;
+    flex-direction: column;
+    
+}
+
+section.controle > div.bloco-controle > div.font-controle > h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 75px;
+    margin-left: 70px;
+    line-height: 80px;
+}
+
+section.controle > div.bloco-controle > div.link-controle > p {
+    padding: 10px 30px;
+    margin-top: 20px;
+    margin-left: 70px;
+    border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+section.controle > div.bloco-controle > div.link-controle > p > a {
+    text-decoration: none;
+    color: white;  
+}
+/*Fim da section controle*/
+
+section.imagem123 {
+    height: 1000px;
+}
+
+section.imagem123 > div.titulo1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+section.imagem123 > div.titulo1 > h1 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+section.imagem123 > div.subtitulo2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+section.imagem123 > div.subtitulo2 > p {
+    width: 650px;
+    text-align: center;
+    line-height: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+section.imagem123 > div.subtitulo3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+section.imagem123 > div.subtitulo3 > p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.imagem123 > div.subtitulo3 > p > a {
+    color: black;
+    font-weight: 100;
+}
+
+section.imagem123 > div.subtitulo4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+section.imagem123 > div.subtitulo4 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding: 10px 30px;
+    color: white;
+    border: 1px solid #3A4998;
+    background-color: #3A4998;
+}
+
+section.imagem123 > #back01 {
+    position: relative;
+    top: -220px;
+    left: 150px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+section.imagem123 > #back02 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: relative;
+    top: 65px;
+    left: -30px;
+}
+
+section.imagem123 > #back03 {
+    position: relative;
+    top: -200px;
+    left: 50px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+section.imagem123 > div.bola04 {
+    position: relative;
+    top: -260px;
+    left: 650px;
+    background-color: #3A4998;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+section.imagem123 > div.bola05 {
+    position: relative;
+    top: -290px;
+    left: 950px;
+    background-color: white;
+    border-radius: 50%;
+    border: 25px solid #E5BB8D;
+    width: 150px;
+    height: 150px;
+}
+
+/*Final desta section a proxima section é a ultima*/
+
+section.final {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+footer {
+    width: 100vw;
+    background-color: black;
+}
+
+footer > p {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 20px;
+}
