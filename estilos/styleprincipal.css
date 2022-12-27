@@ -1,5 +1,14 @@
 @charset "utf-8";
 
+
+section.bloco-imagem {
+    display: none
+}
+
+section.imagem123 {
+    display: none
+}
+
  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Sarala&family=Work+Sans:wght@300;500;600&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Roboto:wght@300&family=Work+Sans:wght@300;500;600&display=swap');
 
@@ -7,6 +16,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+   
 }
 
 header {
