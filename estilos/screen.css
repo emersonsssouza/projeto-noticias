@@ -48,7 +48,7 @@
         height: 300px;
         display: flex;
         position: absolute;
-        margin-left: -150px;
+        margin-left: -160px;
     }
     img.img2 {
         display: none;
@@ -60,7 +60,7 @@
          
     }
     section.section2 > div.text-image {
-        margin-left: 230px;
+        margin-left: 200px;
         margin-top: -500px;
         width: 250px;
         height: 300px;
@@ -75,7 +75,7 @@
         height: 70px;
         display: flex;
         position: relative;
-        left: 190px;
+        left: 160px;
         top: -20px;
     }
     
