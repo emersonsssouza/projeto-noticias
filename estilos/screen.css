@@ -1,18 +1,6 @@
 
 
-@media (min-width:320px) and (max-width:900px) and (orientation: Portrait){
-
-    
-
-    /*
-
-
-
-
-
-
-
-    */
+@media (min-width:320px) and (max-width:600px) and (orientation: Portrait){
 
     header > div > a {
         padding: 2px;
@@ -25,6 +13,7 @@
 
     section.section1 {
        background-image: url(../imagens-background/back1.jpg);
+       background-size: cover;
     }
 
     section > div#sectiontitulo1 {
